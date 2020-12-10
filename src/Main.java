@@ -16,6 +16,13 @@ public class Main {
     put('C', 100);
     put('D', 500);
     put('M', 1000);
+    put('i', 1);
+    put('v', 5);
+    put('x', 10);
+    put('l', 50);
+    put('c', 100);
+    put('d', 500);
+    put('m', 1000);
 
   }};
 

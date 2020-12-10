@@ -7,7 +7,7 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 class MainTest {
 
   @ParameterizedTest()
-  @Test
+
   @CsvFileSource(resources = "numerals.csv")
   void romanToInteger(String numeral, int expectedValue) {
     assertEquals(expectedValue, Main.romanToInteger(numeral));
